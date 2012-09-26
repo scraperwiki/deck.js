@@ -1,5 +1,5 @@
 .deck-container {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: Helvetica, "Nimbus Sans", Arial sans-serif;
   font-size: 1.75em;
   background: #fff;
 }
@@ -43,10 +43,12 @@
   color: #fff;
 }
 .deck-container .slide ::selection {
+  /* XXX */
   background: #c00;
   color: #fff;
 }
 .deck-container .slide a, .deck-container .slide a:hover, .deck-container .slide a:focus, .deck-container .slide a:active, .deck-container .slide a:visited {
+  /* XXX */
   color: #c00;
   text-decoration: none;
 }
@@ -80,5 +82,6 @@
   background: #eee;
 }
 .deck-container.deck-menu .deck-current, .no-touch .deck-container.deck-menu .slide:hover {
+  /* XXX */
   background: #ddf;
 }
