@@ -6,16 +6,16 @@
 .deck-container .slide {
   background: #fff;
 }
+
 .deck-container .slide h1 {
   color: #000;
 }
 .deck-container .slide h2 {
-  /* XXX */
-  color: #c00;
-  border-bottom-color: #ccc;
-}
-.deck-container .slide h3 {
   color: #888;
+  border-bottom: none;
+}
+.deck-container .slide h2 a {
+  color: #000;
 }
 .deck-container .slide pre {
   border-color: #ccc;
