@@ -38,15 +38,6 @@
   font-weight: bold;
   color: #888;
 }
-.deck-container .slide ::-moz-selection {
-  background: #c00;
-  color: #fff;
-}
-.deck-container .slide ::selection {
-  /* XXX */
-  background: #c00;
-  color: #fff;
-}
 .deck-container .slide a, .deck-container .slide a:hover, .deck-container .slide a:focus, .deck-container .slide a:active, .deck-container .slide a:visited {
   /* XXX */
   color: #c00;
