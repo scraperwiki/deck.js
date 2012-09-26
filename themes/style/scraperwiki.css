@@ -14,8 +14,16 @@
   color: #888;
   border-bottom: none;
 }
-.deck-container .slide h2 a {
+.deck-container .slide h2 a ,
+.deck-container .slide h2 a:visited ,
+.deck-container .slide h2 a:link ,
+.deck-container .slide h2 a:hover ,
+.deck-container .slide h2 a:active {
   color: #000;
+  text-decoration: none;
+}
+.deck-container .slide h2 a:hover {
+  border-bottom: 0.05em solid #000;
 }
 .deck-container .slide pre {
   border-color: #ccc;
