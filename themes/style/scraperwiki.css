@@ -8,9 +8,8 @@
 }
 
 .deck-container .slide h1 {
-  color: #000;
   padding: 0;
-  position: static;
+  top: 40%;
 }
 .deck-container .slide h2 {
   color: #888;
@@ -18,6 +17,8 @@
 }
 
 .deck-container .slide.title h1 {
+  position: static;
+  color: #000;
   font-size: 60px;
   line-height: 1em;
   margin-bottom: -80px;
