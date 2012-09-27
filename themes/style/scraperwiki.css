@@ -18,11 +18,12 @@
 }
 
 .deck-container .slide.title h1 {
-  font-size: 100px;
-  line-height: 0.5em;
+  font-size: 60px;
+  line-height: 1em;
+  margin-bottom: -80px;
 }
 .deck-container .slide.title h2 {
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.25em;
 }
 .deck-container .slide.title h1 ,
@@ -32,9 +33,9 @@
 .deck-container .slide.title hgroup {
   background-color: white;
   position: absolute;
-  top: 350px;
+  top: 420px;
   left: 400px;
-  padding: 60px 0px 0px 30px;
+  padding: 110px 2em 0px 30px;
   z-index: 10;
 }
 .deck-container .slide.title img {
