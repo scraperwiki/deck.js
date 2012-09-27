@@ -6,6 +6,8 @@ A JavaScript library for building modern HTML presentations. deck.js is flexible
 
 This repository includes a `boilerplate.html` as a starting point, with all the extensions included. Just [download it](https://github.com/imakewebthings/deck.js/zipball/stable), open `boilerplate.html`, and start editing your slides.
 
+It is styled with the ScraperWiki theme. This involves a particular HTML syntax for the first slide and the inclusion of some Javascript. Sometimes the footer looks crap; if this happens, add the class `no-footer` to the `section` tag.
+
 ## Documentation
 
 Check out the [documentation page](http://imakewebthings.github.com/deck.js/docs) for more information on the methods, events, and options available in core and all the included extensions.  A sample standard slide deck is included in the package under the `introduction` folder.  You can also [view that sample deck](http://imakewebthings.github.com/deck.js/introduction) online to play with the available style and transition themes.
